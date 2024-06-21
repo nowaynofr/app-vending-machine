@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bundled_libs">
+        <item>x86;crypto_1_1</item>
+        <item>x86;ssl_1_1</item>
+    </array>
+    <array name="load_local_libs">
+        <item>x86;libplugins_platforms_qtforandroid_x86.so:libplugins_bearer_qandroidbearer_x86.so</item>
+    </array>
+    <array name="qt_libs">
+        <item>x86;c++_shared</item>
+        <item>x86;Qt5Core_x86</item>
+        <item>x86;Qt5AndroidExtras_x86</item>
+        <item>x86;Qt5Gui_x86</item>
+        <item>x86;Qt5Network_x86</item>
+        <item>x86;Qt5SerialPort_x86</item>
+        <item>x86;Qt5Sql_x86</item>
+        <item>x86;Qt5Widgets_x86</item>
+    </array>
+    <array name="qt_sources">
+        <item>https://download.qt.io/ministro/android/qt5/qt-5.14</item>
+    </array>
+    <string name="fatal_error_msg">Your application encountered a fatal error and cannot continue.</string>
+    <string name="ministro_needed_msg">This application requires Ministro service. Would you like to install it?</string>
+    <string name="ministro_not_found_msg">Can\'t find Ministro service.\nThe application can\'t start.</string>
+    <string name="unsupported_android_version">This version of Android is not supported.</string>
+</resources>

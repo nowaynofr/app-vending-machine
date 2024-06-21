@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+11    <!--
+12         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+13         Remove the comment if you do not require these default permissions.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:5-67
+15-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:5-81
+16-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:7:5-79
+17-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:7:22-76
+18
+19    <!--
+20         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+21         Remove the comment if you do not require these default features.
+22    -->
+23
+24    <supports-screens
+24-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:13:5-135
+25        android:anyDensity="true"
+25-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:13:80-105
+26        android:largeScreens="true"
+26-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:13:23-50
+27        android:normalScreens="true"
+27-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:13:51-79
+28        android:smallScreens="true" />
+28-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:13:106-133
+29
+30    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+30-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:86:1-76
+30-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:86:18-74
+31    <uses-permission android:name="android.permission.REORDER_TASKS" />
+31-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:87:5-71
+31-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:87:22-69
+32    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+32-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:88:5-75
+32-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:88:22-73
+33    <uses-permission android:name="android.permission.GET_TASKS" />
+33-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:89:5-67
+33-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:89:22-65
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:90:5-80
+34-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:90:22-78
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:91:5-67
+35-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:91:22-65
+36    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+36-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:92:5-77
+36-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:92:22-75
+37
+38    <application
+38-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:5-84:19
+39        android:name="org.qtproject.qt5.android.bindings.AppContext"
+39-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:53-113
+40        android:extractNativeLibs="true"
+40-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:144-176
+41        android:hardwareAccelerated="true"
+41-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:18-52
+42        android:icon="@drawable/icon"
+42-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:177-206
+43        android:label="QtTouchScreen" >
+43-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:114-143
+44        <activity
+44-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:9-73:20
+45            android:name="org.qtproject.qt5.android.bindings.QtActivity"
+45-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:189-249
+46            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+46-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:19-188
+47            android:label="QtTouchScreen"
+47-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:250-279
+48            android:launchMode="singleInstance"
+48-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:321-356
+49            android:screenOrientation="userPortrait" >
+49-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:280-320
+50            <intent-filter>
+50-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:16:13-19:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:17-68
+51-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:17-76
+53-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:27-74
+54            </intent-filter>
+55            <!-- Application arguments -->
+56            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+57            <!-- Application arguments -->
+58            <meta-data
+58-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:13-91
+59                android:name="android.app.lib_name"
+59-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:24-59
+60                android:value="QtTouchScreen" />
+60-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:60-89
+61            <meta-data
+61-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:24:13-112
+62                android:name="android.app.qt_sources_resource_id"
+62-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:24:24-73
+63                android:resource="@array/qt_sources" />
+63-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:24:74-110
+64            <meta-data
+64-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:25:13-87
+65                android:name="android.app.repository"
+65-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:25:24-61
+66                android:value="default" />
+66-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:25:62-85
+67            <meta-data
+67-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:26:13-106
+68                android:name="android.app.qt_libs_resource_id"
+68-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:26:24-70
+69                android:resource="@array/qt_libs" />
+69-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:26:71-104
+70            <meta-data
+70-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:27:13-116
+71                android:name="android.app.bundled_libs_resource_id"
+71-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:27:24-75
+72                android:resource="@array/bundled_libs" />
+72-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:27:76-114
+73            <!-- Deploy Qt libs as part of package -->
+74            <meta-data
+74-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:13-91
+75                android:name="android.app.bundle_local_qt_libs"
+75-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:24-71
+76                android:value="1" />
+76-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:72-89
+77            <!-- Run with local libs -->
+78            <meta-data
+78-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:13-88
+79                android:name="android.app.use_local_qt_libs"
+79-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:24-68
+80                android:value="1" />
+80-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:69-86
+81            <meta-data
+81-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:13-100
+82                android:name="android.app.libs_prefix"
+82-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:24-62
+83                android:value="/data/local/tmp/qt/" />
+83-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:63-98
+84            <meta-data
+84-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:13-122
+85                android:name="android.app.load_local_libs_resource_id"
+85-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:24-78
+86                android:resource="@array/load_local_libs" />
+86-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:79-120
+87            <meta-data
+87-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:13-150
+88                android:name="android.app.load_local_jars"
+88-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:24-66
+89                android:value="jar/QtAndroid.jar:jar/QtAndroidExtras.jar:jar/QtAndroidBearer.jar" />
+89-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:67-148
+90            <meta-data
+90-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:13-89
+91                android:name="android.app.static_init_classes"
+91-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:24-70
+92                android:value="" />
+92-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:71-87
+93            <!-- Used to specify custom system library path to run with local system libs -->
+94            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+95            <!-- Messages maps -->
+96            <meta-data
+96-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:13-122
+97                android:name="android.app.ministro_not_found_msg"
+97-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:71-120
+98                android:value="@string/ministro_not_found_msg" />
+98-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:24-70
+99            <meta-data
+99-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:13-116
+100                android:name="android.app.ministro_needed_msg"
+100-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:68-114
+101                android:value="@string/ministro_needed_msg" />
+101-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:24-67
+102            <meta-data
+102-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:13-108
+103                android:name="android.app.fatal_error_msg"
+103-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:64-106
+104                android:value="@string/fatal_error_msg" />
+104-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:24-63
+105            <meta-data
+105-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:13-132
+106                android:name="android.app.unsupported_android_version"
+106-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:76-130
+107                android:value="@string/unsupported_android_version" />
+107-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:24-75
+108            <!-- Messages maps -->
+109            <!-- Splash screen -->
+110            <!--
+111                 Orientation-specific (portrait/landscape) data is checked first. If not available for current orientation,
+112                 then android.app.splash_screen_drawable. For best results, use together with splash_screen_sticky and
+113                 use hideSplashScreen() with a fade-out animation from Qt Android Extras to hide the splash screen when you
+114                 are done populating your window with content.
+115            -->
+116            <!-- meta-data android:name="android.app.splash_screen_drawable_portrait" android:resource="@drawable/logo_portrait" / -->
+117            <!-- meta-data android:name="android.app.splash_screen_drawable_landscape" android:resource="@drawable/logo_landscape" / -->
+118            <!-- meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/ -->
+119            <!-- meta-data android:name="android.app.splash_screen_sticky" android:value="true"/ -->
+120            <!-- Splash screen -->
+121            <!-- Background running -->
+122            <!--
+123                 Warning: changing this value to true may cause unexpected crashes if the
+124                          application still try to draw after
+125                          "applicationStateChanged(Qt::ApplicationSuspended)"
+126                          signal is sent!
+127            -->
+128            <meta-data
+128-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:59:13-93
+129                android:name="android.app.background_running"
+129-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:59:24-69
+130                android:value="false" />
+130-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:59:70-91
+131            <!-- Background running -->
+132            <!-- auto screen scale factor -->
+133            <meta-data
+133-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:62:13-99
+134                android:name="android.app.auto_screen_scale_factor"
+134-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:62:24-75
+135                android:value="false" />
+135-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:62:76-97
+136            <!-- auto screen scale factor -->
+137            <!-- extract android style -->
+138            <!--
+139                 available android:values :
+140                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+141                * full - useful QWidget & Quick Controls 1 apps
+142                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+143                * none - useful for apps that don't use any of the above Qt modules
+144            -->
+145            <meta-data
+145-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:71:13-95
+146                android:name="android.app.extract_android_style"
+146-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:71:24-72
+147                android:value="full" />
+147-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:71:73-93
+148            <!-- extract android style -->
+149        </activity>
+150
+151        <receiver android:name="org.qtproject.qt5.android.bindings.MyBroadcastReceiver" >
+151-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:74:9-79:12
+151-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:74:19-88
+152            <intent-filter>
+152-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:75:5-77:21
+153                <action android:name="android.intent.action.BOOT_COMPLETED" />
+153-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:76:9-70
+153-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:76:17-68
+154            </intent-filter>
+155        </receiver>
+156
+157        <service android:name="org.qtproject.qt5.android.bindings.KioskService" >
+157-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:80:9-82:19
+157-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:80:18-80
+158            <meta-data
+158-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:13-91
+159                android:name="android.app.lib_name"
+159-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:24-59
+160                android:value="QtTouchScreen" />
+160-->D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:60-89
+161        </service>
+162        <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+163    </application>
+164
+165</manifest>

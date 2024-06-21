@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/S&amp;B.png</file>
+        <file>img/topup-telco.png</file>
+        <file>img/buycard.png</file>
+        <file>img/postpaid.png</file>
+        <file>img/gamecard.png</file>
+        <file>img/data3g.png</file>
+        <file>img/qrimage/background_grabpay.jpg</file>
+        <file>img/qrimage/background_momo.jpg</file>
+        <file>img/qrimage/background_qr.jpg</file>
+        <file>img/qrimage/background_vinid.jpg</file>
+        <file>img/qrimage/background_zalopay.jpg</file>
+        <file>img/Data3G/3gMobi.png</file>
+        <file>img/Data3G/3Gviettel.png</file>
+        <file>img/Data3G/3GVina.jpg</file>
+        <file>img/GameCard/Appota.png</file>
+        <file>img/GameCard/Funcard.png</file>
+        <file>img/GameCard/Garena.png</file>
+        <file>img/GameCard/Gate.png</file>
+        <file>img/GameCard/GOSU.png</file>
+        <file>img/GameCard/KulCard.png</file>
+        <file>img/GameCard/OnCash.png</file>
+        <file>img/GameCard/Scoin.png</file>
+        <file>img/GameCard/SohaCoin.png</file>
+        <file>img/GameCard/VCoin.jpg</file>
+        <file>img/GameCard/Zing.png</file>
+        <file>img/HomeNetwork/GMobile.png</file>
+        <file>img/HomeNetwork/Mobifone.png</file>
+        <file>img/HomeNetwork/Vietnamobile.png</file>
+        <file>img/HomeNetwork/Viettel.png</file>
+        <file>img/HomeNetwork/Vina.png</file>
+        <file>img/Digital.png</file>
+        <file>img/Settings-icon.png</file>
+        <file>img/admin.ini</file>
+        <file>img/water.png</file>
+        <file>img/GoodGeneral.jpg</file>
+        <file>img/electric.png</file>
+        <file>img/qrimage/background_smartpay.jpg</file>
+        <file>img/Button_Image/Back_Button.jpg</file>
+        <file>img/Button_Image/OK_Buton.jpg</file>
+        <file>img/Button_Image/Home_Btn.jpg</file>
+        <file>img/motorinsurance.png</file>
+        <file>img/setting.ini</file>
+        <file>img/NoGoodImage.png</file>
+    </qresource>
+</RCC>

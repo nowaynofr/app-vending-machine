@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build"
+    name=":"
+    type="APP"
+    maven=":android-build:"
+    gradle="7.4.0"
+    buildFolder="build"
+    bootClassPath="D:\SDK\platforms\android-34\android.jar;D:\SDK\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,9 @@
+org.qtproject.example-pngs-0 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\build\generated\res\pngs\debug
+org.qtproject.example-resValues-1 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\build\generated\res\resValues\debug
+org.qtproject.example-rs-2 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\build\generated\res\rs\debug
+org.qtproject.example-mergeDebugResources-3 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.qtproject.example-mergeDebugResources-4 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.qtproject.example-merged_res-5 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\build\intermediates\merged_res\debug
+org.qtproject.example-android-build-6 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\res
+org.qtproject.example-debug-7 D:\C++\QtTouchScreen\build\Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\src\debug\res
+org.qtproject.example-java-8 D:\Qt\5.15.2\android\src\android\java\res
